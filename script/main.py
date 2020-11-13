@@ -4,7 +4,10 @@ import string
 import sys
 
 # import user input
-query = sys.argv[1]
+try:
+    query = sys.argv[1]
+except:
+    query = 15
 
 # function to generate password
 def generate(length):
