@@ -1,14 +1,19 @@
-#import
+#import modules
 import random
 import string
 import sys
 
+# import user input
 query = sys.argv[1]
 
-def generate(query):
+# function to generate password
+def generate(length):
     characters = string.ascii_letters + string.digits + string.punctuation
-    query = ''.join(random.choice(characters) for i in range(length))
-    return query
+    password = ''.join(random.choice(characters) for i in range(int(length)))
+    return password
 
-query = generate(20)
+# save fucntion output to query
+query = generate(query)
+
+# output from python
 sys.stdout.write(query)
