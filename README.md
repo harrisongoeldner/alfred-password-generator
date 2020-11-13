@@ -2,7 +2,7 @@
 Copy string of characters to clipboard
 
 Developed by Harrison Goeldner
-Version 1.0.1
+Version 1.0
 
 Icon made by surang from www.flaticon.com
 
